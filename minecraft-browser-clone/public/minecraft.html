@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Minecraft-lite (2D) — Open in Chrome</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* small page-specific UI tweaks */
+        .hud {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            color: #fff;
+            background: rgba(0,0,0,0.35);
+            padding: 8px 10px;
+            border-radius: 6px;
+            z-index: 20;
+            font-size: 14px;
+        }
+        .hint { opacity: 0.9 }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="mcCanvas"></canvas>
+        <div class="hud">
+            <div id="mode">Mode: Place</div>
+            <div id="selected">Block: Grass (1)</div>
+            <div class="hint">Move: WASD / Arrows — Jump: Space — Place: Left click — Break: Right click</div>
+            <div class="hint">Number keys 1-4 to select block. R to reset world.</div>
+        </div>
+    </div>
+
+    <script src="minecraft.js"></script>
+</body>
+</html>

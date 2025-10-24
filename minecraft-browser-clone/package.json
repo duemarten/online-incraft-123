@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-browser-clone",
+  "version": "1.0.0",
+  "description": "A browser-based clone of Minecraft.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "three": "^0.132.2",
+    "dat.gui": "^0.7.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "live-server": "^1.2.1"
+  },
+  "keywords": [
+    "minecraft",
+    "browser",
+    "game"
+  ],
+  "author": "unejombaba",
+  "license": "MIT"
+}

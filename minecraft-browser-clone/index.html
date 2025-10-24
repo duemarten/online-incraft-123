@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Minecraft Browser Clone — Play</title>
+    <meta http-equiv="refresh" content="0; url=public/minecraft.html" />
+    <script>
+      // Fallback redirect if meta-refresh is blocked
+      if (location.pathname === '/' || location.pathname.endsWith('index.html')) {
+        location.replace('public/minecraft.html');
+      }
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, <a href="public/minecraft.html">click here to play</a>.</p>
+  </body>
+</html>
